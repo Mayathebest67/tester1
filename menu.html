@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Menu - The Original Pancake House</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #ffffff;
+        }
+
+        
+        header {
+            background: #003f87;
+            padding: 20px;
+            text-align: center;
+            color: #ffdd00;
+            font-size: 32px;
+            font-weight: bold;
+            border-left: 4px dotted #ffdd00;
+            border-right: 4px dotted #ffdd00;
+        }
+
+   
+        #navheader {
+            background-color: #000052;
+            padding: 10px;
+            border-left: 4px dotted #ffdd00;
+            border-right: 4px dotted #ffdd00;
+        }
+
+        #navheader ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        #navheader a {
+            color: #ffdd00;
+            padding: 10px 16px;
+            display: block;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #navheader a:hover {
+            background: #002a5c;
+        }
+
+        
+        #logoheader {
+            background: #ffdd00;
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+            border-left: 4px dotted #ffdd00;
+            border-right: 4px dotted #ffdd00;
+        }
+
+        #logo {
+            height: 80px;
+        }
+
+  
+        #menu {
+            width: 850px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #003f87;
+            border-bottom: 3px solid #ffdd00;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+
+        .foodbox {
+            border: 3px dotted #ffdd00;
+            padding: 15px;
+            margin: 25px 0;
+            border-radius: 6px;
+            background: #fffef2;
+        }
+
+        .foodbox img {
+            width: 100%;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+
+        .item-title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #003f87;
+        }
+
+        .price {
+            float: right;
+            font-weight: bold;
+            color: #003f87;
+        }
+
+        p {
+            margin-top: 10px;
+            font-size: 15px;
+        }
+
+   
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            border-top: 1px solid #ccc;
+            color: #666;
+            border-left: 4px dotted #ffdd00;
+            border-right: 4px dotted #ffdd00;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>The Original Pancake House Menu</header>
+
+<div id="navheader">
+    <ul>
+        <li><a href="index.html">Index</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="locations.html">Locations</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="pancakes.html">What Are Pancakes</a></li>
+    </ul>
+</div>
+
+<div id="logoheader">
+    <img id="logo" src="images/logo.jpg" alt="Pancake House Logo">
+</div>
+
+<section id="menu">
+
+    <h2>Pancakes</h2>
+
+    <div class="foodbox">
+        <div class="item-title">Apple Pancake <span class="price">$14.99</span></div>
+        <img src="images/apple.jpg" alt="Apple Pancake">
+        <p>A giant oven‑baked pancake filled with apples and cinnamon.</p>
+    </div>
+
+    <div class="foodbox">
+        <div class="item-title">Buttermilk Pancakes <span class="price">$9.99</span></div>
+        <p>Classic pancakes made from scratch every morning.</p>
+    </div>
+
+    <div class="foodbox">
+        <div class="item-title">Blueberry Pancakes <span class="price">$11.99</span></div>
+        <p>Fresh blueberries cooked inside fluffy buttermilk pancakes.</p>
+    </div>
+
+    <h2>Specialties</h2>
+
+    <div class="foodbox">
+        <div class="item-title">Dutch Baby <span class="price">$13.99</span></div>
+        <img src="images/dutch.jpg" alt="Dutch Baby">
+        <p>A fluffy baked pancake served with lemon, butter, and powdered sugar.</p>
+    </div>
+
+    <div class="foodbox">
+        <div class="item-title">German Pancake <span class="price">$13.99</span></div>
+        <p>A large, oven‑baked pancake served with lemon wedges.</p>
+    </div>
+
+    <h2>Eggs & Omelets</h2>
+
+    <div class="foodbox">
+        <div class="item-title">Three‑Egg Omelet <span class="price">$12.99</span></div>
+        <p>Made with fresh eggs and served with your choice of side.</p>
+    </div>
+
+    <div class="foodbox">
+        <div class="item-title">Ham & Cheese Omelet <span class="price">$13.49</span></div>
+        <p>Stuffed with diced ham and melted cheese.</p>
+    </div>
+
+    <h2>Sides</h2>
+
+    <div class="foodbox">
+        <div class="item-title">Bacon <span class="price">$4.99</span></div>
+    </div>
+
+    <div class="foodbox">
+        <div class="item-title">Hash Browns <span class="price">$3.99</span></div>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 The Original Pancake House — All Rights Reserved
+</footer>
+
+</body>
+</html>
